@@ -17,7 +17,7 @@ struct TrieNode {
 
 class searchEngine {
 public:
-	bool isNumber(char key);			//Quan
+	bool isNumber(const string& str);
 	bool isAlphabet(char key);			//Quan
 	string intToString(int num);		//Quan
 	string floatToString(float num);	//Quan
