@@ -20,7 +20,7 @@ public:
 	bool isNumber(const string& str);
 	bool isAlphabet(const string& str);		
 	string intToString(int num);		
-	string floatToString(float num);	//Quan
+	string floatToString(float num);	
 	bool isAccepted(char key);			//Phat
 	int convert(char key);				//Phat
 	string Filter(string sen);			//Phat
