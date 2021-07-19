@@ -1,4 +1,4 @@
-#include"searchengine.h"
+#include"function.h"
 
 bool isNumber(const string& str)
 {
@@ -8,5 +8,11 @@ bool isNumber(const string& str)
     return true;
 }
 
-
+bool isAlphabet(const string& str)
+{
+	for (char const& c : str) {
+		if (isalpha(c) == 0) return false;
+	}
+	return true;
+}
 
