@@ -16,3 +16,10 @@ bool isAlphabet(const string& str)
 	return true;
 }
 
+string intToString(int num)
+{
+	stringstream ss;
+	ss << num;
+	string out_string = ss.str();
+	cout << out_string << "\n";
+}

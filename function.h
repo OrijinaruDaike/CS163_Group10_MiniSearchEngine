@@ -19,7 +19,7 @@ class searchEngine {
 public:
 	bool isNumber(const string& str);
 	bool isAlphabet(const string& str);		
-	string intToString(int num);		//Quan
+	string intToString(int num);		
 	string floatToString(float num);	//Quan
 	bool isAccepted(char key);			//Phat
 	int convert(char key);				//Phat

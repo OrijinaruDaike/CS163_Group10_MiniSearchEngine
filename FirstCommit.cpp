@@ -10,6 +10,10 @@ int main() {
 	isAlphabet(str)? cout << "The character is an alphabet\n" : cout << "The character is not an alphabet\n";
 
 	isNumber(str) ? cout << "The character is a number\n" : cout << "The character is not a number\n";
-
+	
+	int i;
+	cin >> i;
+	intToString(i);
+	
 	return 0;
 }
